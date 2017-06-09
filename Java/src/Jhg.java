@@ -21,7 +21,7 @@ class Jhg extends Cals
 		System.out.printf("실행자 : 11604435 지호근\n");
 		System.out.printf("오늘 날짜는  %tY년 %tm월 %td일\n", new Date(), new Date(), new Date());
 				
-		System.out.printf("실행결과\n");
+		System.out.printf("\n실행결과\n");
 		System.out.printf("1. %d + %d : %d\n", num1, num2, sum);
 		System.out.printf("2. %d - %d : %d\n", num1, num2, minu);
 		System.out.printf("3. %d * %d : %d\n", num1, num2, multi);
