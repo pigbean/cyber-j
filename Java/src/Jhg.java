@@ -47,7 +47,7 @@ class Cals //사칙연산 실행 Class
 			multi = i * j;
 			div = i / j;
 		}
-		catch(ArithmeticException ae)
+		catch(ArithmeticException ae) // 예외처리 
 		{
 			System.out.print("0으로 나눌 수 없습니다.");
 			System.exit(0); // 0으로 나누기 실행 시 계산없이 종료
